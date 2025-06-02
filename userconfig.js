@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Munich",
     scale: "C",
   },
   clock: {
@@ -27,9 +27,8 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      b: ["https://search.brave.com/search?q=", "Brave"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
-      g: ["https://google.com/search?q=", "Google"],
     },
   },
   keybindings: {
