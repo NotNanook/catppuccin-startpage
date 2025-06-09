@@ -28,22 +28,22 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "Home",
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "Search",
           links: [
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
+              name: "Brave",
+              url: "https://safe.search.brave.com",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "Stuff",
           links: [
             {
               name: "tuta",
@@ -57,16 +57,22 @@ const default_configuration = {
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: "media",
-          links: [
             {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "news",
               icon_color: palette.red,
+            },
+          ],
+        },
+        {
+          name: "Uni",
+          links: [
+            {
+              name: "tum online",
+              url: "https://campus.tum.de/tumonline/",
+              icon: "book",
+              icon_color: palette.cyan
             },
           ],
         },
