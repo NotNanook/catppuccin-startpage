@@ -72,7 +72,7 @@ const default_configuration = {
               name: "tum online",
               url: "https://campus.tum.de/tumonline/",
               icon: "book",
-              icon_color: palette.cyan
+              icon_color: palette.blue
             },
           ],
         },
